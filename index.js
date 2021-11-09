@@ -1,9 +1,9 @@
 const Papa = require("papaparse");
 const fs = require("fs");
 
-const file = fs.createReadStream("audit.csv");
-const md5File = fs.createReadStream("md5sum.csv");
-const sectorFile = fs.createReadStream("htm.csv");
+const file = fs.createReadStream("files/audit.csv");
+const md5File = fs.createReadStream("files/md5sum.csv");
+const sectorFile = fs.createReadStream("files/htm.csv");
 
 const final = [];
 
